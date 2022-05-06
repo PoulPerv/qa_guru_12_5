@@ -14,6 +14,12 @@ dependencies {
             "org.slf4j:slf4j-simple:1.7.36"
     )
 }
+compileJava {
+    options.encoding='UTF-8'
+}
+compileTestJava {
+    options.encoding='UTF-8'
+}
 
 test {
     useJUnitPlatform()
